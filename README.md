@@ -4,7 +4,7 @@
 ### Check The Live Website ➡️ [Live Website](https://skycooper.github.io/guessNumber/)
 
 ### Animation of the Website
-![image](https://github.com/SkyCooper/ToDo-App/blob/main/Todo.gif)
+![image](https://github.com/SkyCooper/guessNumber/blob/main/guess.gif)
 
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/106506769/192146459-fc62e161-b75d-4450-a2df-0ab4586a2483.png)
