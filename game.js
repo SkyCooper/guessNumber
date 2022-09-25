@@ -48,6 +48,7 @@ document.querySelector(".check-btn").addEventListener("click", () => {
       guessInput > randomNumber
         ? (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-down fa-2x"></i> DECREASE `)
         : (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-up fa-2x"></i> INCREASE `);
+        document.querySelector(".guess-input").value = "";
     } else {
       msg.innerHTML = `You Lost <i class="fa-regular fa-face-sad-tear fa-2x"></i>`;
       document.querySelector(".secret-number").textContent = randomNumber;
@@ -56,6 +57,7 @@ document.querySelector(".check-btn").addEventListener("click", () => {
     }
 
     document.querySelector(".score").textContent = score;
+    document.querySelector(".guess-input").value = "";
   }
 });
 
